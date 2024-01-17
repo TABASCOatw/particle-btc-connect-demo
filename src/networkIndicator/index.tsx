@@ -3,7 +3,7 @@ import { useBTCProvider } from '@particle-network/btc-connectkit';
 
 const NetworkIndicator = () => {
   const { getNetwork } = useBTCProvider();
-  const [network, setNetwork] = useState('testnet'); // Default to 'testnet'
+  const [network, setNetwork] = useState('testnet');
 
   useEffect(() => {
     const intervalId = setInterval(async () => {
