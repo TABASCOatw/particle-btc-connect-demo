@@ -14,7 +14,7 @@ Built using **BTC Connect (by Particle Network)**, **TypeScript**
 ## ₿ BTC Connect
 BTC Connect takes advantage of ERC-4337 alongside (Bitcoin) Layer-2 EVM-compatible blockchains to leverage a Smart Account, Paymaster, Bundler natively within Bitcoin wallets (connected to through a Bitcoin-specific modal also provided by BTC Connect). As its core, BTC Connect enables existing BTC wallets to control smart accounts on Layer-2s.
 
-![https://i.imgur.com/RoXtFEe.png]()
+![](https://i.imgur.com/RoXtFEe.png)
 
 ##
 
