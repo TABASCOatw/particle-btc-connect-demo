@@ -1,0 +1,41 @@
+{
+  "name": "particle-btc-connect-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Demo application for showcasing the implementation of BTC Connect (by Particle Network).",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@vitejs/plugin-react": "^2.0.0",
+    "react": "^18.2.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.4"
+  },
+  "dependencies": {
+    "@particle-network/aa": "1.2.0",
+    "@particle-network/auth": "^1.2.2",
+    "@particle-network/auth-core": "1.3.1",
+    "@particle-network/auth-core-modal": "1.3.3",
+    "@particle-network/btc-connectkit": "^1.0.0-alpha.0",
+    "@particle-network/chains": "latest",
+    "@particle-network/provider": "^1.2.0",
+    "@particle-network/thresh-sig": "^0.7.8",
+    "@types/events": "^3.0.3",
+    "antd": "^5.11.5",
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "ethers": "5.7.2",
+    "react-dom": "^18.2.0",
+    "rollup-plugin-polyfill-node": "^0.13.0",
+    "thresh": "^1.1.0",
+    "vite-plugin-wasm": "^3.2.2",
+    "web3": "^4.3.0"
+  }
+}
